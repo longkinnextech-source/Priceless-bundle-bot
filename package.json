@@ -1,0 +1,19 @@
+{
+  "name": "priceless-bundle-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp ordering bot for Priceless Bundle (DataFlex GH) - buy data bundles via WhatsApp, wallet-based payment, birthday gift + referral system",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "pino": "^9.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
