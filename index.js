@@ -5,7 +5,7 @@ const {
   DisconnectReason,
 } = require("@whiskeysockets/baileys");
 const pino = require("pino");
-const { handleMessage } = require("./lib/handler");
+const { handleMessage } = require("./handler");
 
 // Your own WhatsApp number, digits only with country code, no + and no
 // spaces (e.g. "233205499441"). Used once, only if this is a fresh login,
